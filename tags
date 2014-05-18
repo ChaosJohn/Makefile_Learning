@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	FinalMakeFile/src/Makefile	/^CC=gcc $/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	FinalMakeFile/src/Makefile	/^CFLAGS=-I$(IDIR) $/;"	m
+CFLAGS	Makefile	/^CFLAGS=-I. $/;"	m
+DEPS	FinalMakeFile/src/Makefile	/^DEPS=$(patsubst %, $(IDIR)\/%, $(_DEPS)) $/;"	m
+DEPS	Makefile	/^DEPS=hellomake.h $/;"	m
+EXEC	FinalMakeFile/src/Makefile	/^EXEC=hellomake $/;"	m
+IDIR	FinalMakeFile/src/Makefile	/^IDIR=..\/include $/;"	m
+LDIR	FinalMakeFile/src/Makefile	/^LDIR=..\/lib $/;"	m
+LIBS	FinalMakeFile/src/Makefile	/^LIBS=-lm $/;"	m
+MyPrintHelloMake	FinalMakeFile/src/hellofun.c	/^MyPrintHelloMake(void) {$/;"	f
+MyPrintHelloMake	hellofun.c	/^MyPrintHelloMake(void) {$/;"	f
+OBJ	FinalMakeFile/src/Makefile	/^OBJ=hellomake.o hellofun.o $/;"	m
+OBJ	Makefile	/^OBJ=hellomake.o hellofun.o $/;"	m
+_DEPS	FinalMakeFile/src/Makefile	/^_DEPS=hellomake.h $/;"	m
+_HELLOMAKE_H_	FinalMakeFile/include/hellomake.h	2;"	d
+_HELLOMAKE_H_	hellomake.h	2;"	d
+main	FinalMakeFile/src/hellomake.c	/^main(int argc, $/;"	f
+main	hellomake.c	/^main(int argc, $/;"	f
